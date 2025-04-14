@@ -1,4 +1,4 @@
-package db;
+package src.db;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.sql.ResultSet;
 import java.util.Properties;
 
-import com.mysql.cj.protocol.Resultset;
+//import com.mysql.cj.protocol.Resultset;
 
 
 

@@ -1,9 +1,9 @@
-package model.dao;
+package src.model.dao;
 
 import java.util.List;
 
-import model.entities.Department;
-import model.entities.Seller;
+import src.model.entities.Department;
+import src.model.entities.Seller;
 
 public interface SellerDao {
 	

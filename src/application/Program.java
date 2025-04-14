@@ -1,12 +1,12 @@
-package application;
+package src.application;
 
 import java.util.Date;
 import java.util.List;
 
-import model.dao.DaoFactory;
-import model.dao.SellerDao;
-import model.entities.Department;
-import model.entities.Seller;
+import src.model.dao.DaoFactory;
+import src.model.dao.SellerDao;
+import src.model.entities.Department;
+import src.model.entities.Seller;
 
 public class Program {
 

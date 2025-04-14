@@ -1,4 +1,4 @@
-package model.dao.impl;
+package src.model.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,11 +10,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import db.DB;
-import db.DbException;
-import model.dao.SellerDao;
-import model.entities.Department;
-import model.entities.Seller;
+import src.db.DB;
+import src.db.DbException;
+import src.model.dao.SellerDao;
+import src.model.entities.Department;
+import src.model.entities.Seller;
 
 public class SellerDaoJDBC implements SellerDao{
 	
